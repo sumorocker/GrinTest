@@ -1,6 +1,6 @@
 function refreshdata(){
 	$.ajax({
-			url: 'https://grintest.net/v1/chain',
+			url: 'http://grin.lesceller.com/assets/js/chain.json',
 			dataType: 'json',
 			cache: false
 		})
