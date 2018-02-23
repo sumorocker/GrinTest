@@ -13,11 +13,11 @@
 	</head>
 	<body class="is-loading">
 		<!-- Wrapper -->
+		<div id="particles-js">
 			<div id="wrapper">
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/grin.png" alt="" /></span>
 							<h1>Grin Testnet1 Network</h1>
 							<h2 id="gnlatestblk">Latest block # is</br>not available</h2>
 							<h2 id="gnblkhash"> - </h2>
@@ -26,16 +26,19 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li title="Github Source"><a href="https://github.com/antonio-fr/GrinTest" target="_blank"><span class="fa fa-github"></span></a></li
-							><li><span class="fa fa-share-square-o"></span> Grins to http&#58;&#47;&#47;51&#46;255&#46;202&#46;83&#58;6543</li>
+							<li title="Github Source"><a href="https://github.com/quentinlesceller/GrinTest" target="_blank"><span class="fa fa-github"></span></a></li
+							><li><span class="fa fa-share-square-o"></span> Grins to http&#58;&#47;&#47;198&#46;245&#46;50&#46;26&#58;13414</li>
 						</ul>
 					</footer>
 			</div>
+		</div>
 			<script>
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+			<script src="assets/js/particles.min.js"></script>
+			<script src="assets/js/app.js"></script>
 	</body>
 </html>
